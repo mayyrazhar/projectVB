@@ -100,8 +100,10 @@
         Dim updateOk As Boolean
         Dim messageString As String
         theNewStudentRec.matric = matricTextBox.Text
+        theNewStudentRec.ic = icNumberTextBox.Text
         theNewStudentRec.name = nameTextBox.Text
         theNewStudentRec.dob = dobDateTimePicker1.Value
+        theNewStudentRec.phone = PhoneNumberTextBox.Text
         theNewStudentRec.classGroup = classComboBox.Text
         updateOk = myStudent.updateThisStudent(oldStudentRec, theNewStudentRec)
         If updateOk Then
