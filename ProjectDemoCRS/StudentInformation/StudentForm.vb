@@ -72,6 +72,7 @@
             .matric = matricTextBox.Text
             .name = nameTextBox.Text
             .dob = dobDateTimePicker1.Value
+            .phone = PhoneNumberTextBox.Text
             .classGroup = classComboBox.Text
         End With
 

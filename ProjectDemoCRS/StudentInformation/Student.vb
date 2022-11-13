@@ -25,6 +25,7 @@ Public Class Student
                 studentRec.matric = dr("matricNumber").ToString
                 studentRec.name = dr("name").ToString
                 studentRec.classGroup = dr("groupId").ToString
+                studentRec.phone = dr("phoneNumber").ToString
                 studentRec.dob = dr("dateOfBirth")
                 con.Close()
                 Return studentRec

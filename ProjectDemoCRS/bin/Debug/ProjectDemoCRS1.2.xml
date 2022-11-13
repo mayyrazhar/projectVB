@@ -32,5 +32,465 @@ ProjectDemoCRS1.2
   Looks up a localized string similar to \ihsanTuitionCenterDb.accdb.
 </summary>
 </member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.studentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.studentGroupTblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.subjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.subjectregisterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.userTblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.studentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.studentGroupTblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.subjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.subjectregisterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.userTblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.studentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.studentGroupTblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.subjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.subjectregisterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1.userTblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.studentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.studentGroupTblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.subjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.subjectregisterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.userTblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(ProjectDemoCRS.ihsanTuitionCenterDbDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(ProjectDemoCRS.ihsanTuitionCenterDbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(ProjectDemoCRS.ihsanTuitionCenterDbDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.TableAdapterManager.UpdateAll(ProjectDemoCRS.ihsanTuitionCenterDbDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.studentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.studentGroupTblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.subjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.subjectregisterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.userTblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.studentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.studentGroupTblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.subjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.subjectregisterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.userTblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.studentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.studentGroupTblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.subjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.subjectregisterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2.userTblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.studentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.studentGroupTblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.subjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.subjectregisterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.userTblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(ProjectDemoCRS.ihsanTuitionCenterDbDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(ProjectDemoCRS.ihsanTuitionCenterDbDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(ProjectDemoCRS.ihsanTuitionCenterDbDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.TableAdapterManager.UpdateAll(ProjectDemoCRS.ihsanTuitionCenterDbDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.studentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.studentGroupTblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.subjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.subjectregisterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.teacherDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.userTblDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.studentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.studentGroupTblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.subjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.subjectregisterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.teacherRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.userTblRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.studentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.studentGroupTblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.subjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.subjectregisterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.teacherRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3.userTblRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.studentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.studentGroupTblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.subjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.subjectregisterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.teacherTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.userTblTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(ProjectDemoCRS.ihsanTuitionCenterDbDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(ProjectDemoCRS.ihsanTuitionCenterDbDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(ProjectDemoCRS.ihsanTuitionCenterDbDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.TableAdapterManager.UpdateAll(ProjectDemoCRS.ihsanTuitionCenterDbDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ProjectDemoCRS.ihsanTuitionCenterDbDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>

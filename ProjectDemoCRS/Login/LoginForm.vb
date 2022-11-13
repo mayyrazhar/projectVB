@@ -1,5 +1,5 @@
 Public Class LoginForm
-    Dim user As UserClass
+    Friend user As UserClass
     Dim loginModel As LoginModel
     Private Sub OK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OK.Click
         user.setUserData(UsernameTextBox.Text, Me.PasswordTextBox.Text)
